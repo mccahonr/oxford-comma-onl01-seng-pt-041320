@@ -1,8 +1,8 @@
 def oxford_comma(array)
- if array[1] == nil
+ if array.length == 1
    array.join
  end
- if array[2] == nil
- end
+ if array.length == 2
+   array.join( and )
 end
 
